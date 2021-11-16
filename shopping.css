@@ -1,0 +1,113 @@
+nav #shopping {
+  background-color: rgb(114, 23, 23);
+}
+.shopping-main-body {
+  padding-top: 20vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(139, 139, 139);
+}
+.order-now-headding {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  font-size: 30px;
+}
+.shopping-table-nav {
+  display: flex;
+  background-color: rgb(63, 62, 62);
+  margin-top: 5vh;
+  font-size: 15px;
+}
+.table-bot-name {
+  margin-left: 10vw;
+  white-space: nowrap;
+}
+.table-version {
+  margin-left: 15vw;
+}
+.table-price-month {
+  margin-left: 10vw;
+}
+.table-price-year {
+  padding-left: 10vw;
+}
+.table-music-bot {
+  display: flex;
+  margin-top: 5vh;
+  font-size: 12px;
+  padding-top: 2vh;
+  align-items: center;
+}
+.music-bot-name {
+  margin-left: 10vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.music-bot-version {
+  margin-left: 17vw;
+}
+.music-bot-price-month {
+  margin-left: 15vw;
+}
+.music-bot-price-year {
+  margin-left: 15vw;
+}
+.table-admin-bot {
+  display: flex;
+  margin-top: 5vh;
+  font-size: 12px;
+  padding-top: 2vh;
+  align-items: center;
+}
+.admin-bot-name {
+  margin-left: 10vw;
+  white-space: nowrap;
+  text-transform: uppercase;
+}
+.admin-bot-version {
+  margin-left: 16.8vw;
+}
+.admin-bot-price-month {
+  margin-left: 15vw;
+}
+.admin-bot-price-year {
+  margin-left: 14.3vw;
+}
+.order-now-button-music {
+  background-color: rgb(195, 31, 31);
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-left: 6vw;
+}
+.order-now-button-music a {
+  color: rgb(139, 139, 139);
+  text-decoration: none;
+}
+.order-now-button-music:hover {
+  background-color: rgb(201, 85, 85);
+}
+.order-now-button-admin {
+  background-color: rgb(195, 31, 31);
+  padding-top: 5px;
+  padding-bottom: 4px;
+  padding-left: 6px;
+  padding-right: 6px;
+  font-size: 16px;
+  border-radius: 15px;
+  margin-left: 5.2vw;
+}
+.order-now-button-admin a {
+  color: rgb(139, 139, 139);
+  text-decoration: none;
+}
+.order-now-button-admin:hover {
+  background-color: rgb(201, 85, 85);
+}
