@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Argon Bots | Create Bot</title>
+    <link rel="icon" href="/img/Copy of Ar.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/music-bot-form-9.css" />
+  </head>
+  <body>
+    <h3 class="cancel-button"><a href="/html/shopping.html">CANCEL</a></h3>
+    <h3 class="back-button"><a href="/html/music-bot-form-10.html">BACK</a></h3>
+    <button id="form-item-1-button">
+      <a href="/html/music-bot-form-10.html">NEXT</a>
+    </button>
+    <!--Sandbox pay-pal button start-->
+    <div id="smart-button-container">
+      <div style="text-align: center">
+        <div id="paypal-button-container"></div>
+      </div>
+    </div>
+    <script
+      src="https://www.paypal.com/sdk/js?client-id=sb&enable-funding=venmo&currency=AUD"
+      data-sdk-integration-source="button-factory"
+    ></script>
+    <script>
+      function initPayPalButton() {
+        paypal
+          .Buttons({
+            style: {
+              shape: "rect",
+              color: "gold",
+              layout: "vertical",
+              label: "buynow",
+            },
+
+            createOrder: function (data, actions) {
+              return actions.order.create({
+                purchase_units: [
+                  {
+                    description: "Music bot for 1 month",
+                    amount: { currency_code: "AUD", value: 1 },
+                  },
+                ],
+              });
+            },
+
+            onApprove: function (data, actions) {
+              return actions.order.capture().then(function (orderData) {
+                // Full available details
+                console.log(
+                  "Capture result",
+                  orderData,
+                  JSON.stringify(orderData, null, 2)
+                );
+
+                // Show a success message within this page, e.g.
+                const element = document.getElementById(
+                  "paypal-button-container"
+                );
+                element.innerHTML = "";
+                element.innerHTML = "<h3>Thank you for your payment!</h3>";
+
+                // Or go to another URL:  actions.redirect('thank_you.html');
+              });
+            },
+
+            onError: function (err) {
+              console.log(err);
+            },
+          })
+          .render("#paypal-button-container");
+      }
+      initPayPalButton();
+    </script>
+    <!--Sandbox pay-pal button end-->
+    <script src="/js/music-bot-form/11.js"></script>
+  </body>
+</html>
