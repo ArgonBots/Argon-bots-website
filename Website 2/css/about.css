@@ -1,0 +1,67 @@
+nav #about a {
+  color: rgb(0, 0, 0);
+}
+.about-body-main {
+  padding-top: 20vh;
+  padding-left: 5vw;
+  padding-right: 5vw;
+  font-family: "Roboto", sans-serif;
+  color: rgb(139, 139, 139);
+}
+.headding {
+  padding-bottom: 5vh;
+}
+.our-mission {
+  font-size: 50px;
+  line-height: 70px;
+  padding-bottom: 25vh;
+}
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0.9;
+  }
+}
+.keep-scrolling {
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  padding-bottom: 50vh;
+  letter-spacing: 2px;
+  animation: fadeIn 0.5s ease-in-out 3s;
+}
+.what-we-do {
+  padding-bottom: 50vh;
+  font-size: 25px;
+  line-height: 30px;
+}
+.what-we-do-headding {
+  padding-bottom: 5vh;
+}
+.latest-news {
+  padding-bottom: 5vh;
+}
+.news1 {
+  padding-top: 5vh;
+  font-size: 22px;
+  padding-bottom: 3vh;
+}
+.news1-body {
+  font-size: 22px;
+  padding-bottom: 20vh;
+}
+.news1-hr-top {
+  margin-bottom: 2vh;
+}
+.news1-hr-bottom {
+  margin-top: 2vh;
+}
+.about-body-main a {
+  text-decoration: none;
+  color: rgb(139, 139, 139);
+}
+.about-body-main a:hover {
+  color: rgb(195, 195, 195);
+}
