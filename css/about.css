@@ -1,5 +1,9 @@
+* *:not(nav) {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
 nav #about a {
-  color: rgb(0, 0, 0);
+  color: rgb(194, 194, 194);
 }
 .about-body-main {
   padding-top: 20vh;

@@ -16,98 +16,173 @@ nav #shopping {
   letter-spacing: 3px;
   font-size: 30px;
 }
-.shopping-table-nav {
-  display: flex;
-  background-color: rgb(63, 62, 62);
-  margin-top: 5vh;
-  font-size: 15px;
+@media screen and (max-width: 720px) {
+  .mobile-shopping {
+    flex-direction: column;
+  }
+  .admin-bot-icon-1 {
+    margin-bottom: 40px;
+  }
+  .mobile-shopping {
+    justify-content: center;
+  }
+  * *:not(nav, .music-bot-icon-1, .admin-bot-icon-1, .nav-links, .about, .contact, .order-now-button, .logo) {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 }
-.table-bot-name {
-  margin-left: 10vw;
-  white-space: nowrap;
+@media screen and (min-width: 720px) {
+  .mobile-shopping {
+    flex-direction: row;
+  }
+  .admin-bot-icon-1 {
+    margin-bottom: 20px;
+    margin-left: 50px;
+  }
+  * *:not(nav, .music-bot-icon-1, .admin-bot-icon-1, .nav-links, .about, .contact, .order-now-button, .mobile-shopping, .shopping-main-body, .logo) {
+    overflow: scroll;
+    -webkit-overflow-scrolling: touch;
+  }
 }
-.table-version {
-  margin-left: 15vw;
+  .mobile-shopping {
+    display: flex;
+  }
+  .shopping-hr-top {
+    display: flex;
+  }
+
+.shopping-hr-top {
+  margin-top: 50px;
+  flex-direction: row;
+  margin-bottom: 30px;
 }
-.table-price-month {
-  margin-left: 10vw;
-}
-.table-price-year {
-  padding-left: 10vw;
-}
-.table-music-bot {
-  display: flex;
-  margin-top: 5vh;
-  font-size: 12px;
-  padding-top: 2vh;
+.mobile-shopping {
+  width: 100%;
+  min-width: 100%;
+  max-width: 100%;
   align-items: center;
 }
-.music-bot-name {
-  margin-left: 10vw;
+.music-bot-icon-1 {
+  height: 350px;
+  width: 300px;
+  margin-top: 20px;
+  border: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  background-image: url(../img/blue\ background.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: -125px;
+  background-color: rgb(75, 75, 75);
+}
+.music-bot-icon-1-heading {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+  color: white;
+}
+.music-bot-icon-1-order-now-button {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  display: block;
+  background-color: red;
+  width: 180px;
   white-space: nowrap;
-  text-transform: uppercase;
-}
-.music-bot-version {
-  margin-left: 17vw;
-}
-.music-bot-price-month {
-  margin-left: 15vw;
-}
-.music-bot-price-year {
-  margin-left: 15vw;
-}
-.table-admin-bot {
-  display: flex;
-  margin-top: 5vh;
-  font-size: 12px;
-  padding-top: 2vh;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
   align-items: center;
+  text-align: center;
+  margin-left: 60px;
 }
-.admin-bot-name {
-  margin-left: 10vw;
+a {
+  color: rgb(173, 173, 173);
+  text-decoration: none;
+}
+a:hover {
+  transform: scale(1.5);
+}
+.music-bot-icon-1-version,
+.music-bot-icon-1-price-montly,
+.music-bot-icon-1-price-yearly {
+  text-align: center;
+  color: rgb(173, 173, 173);
+}
+.music-bot-icon-1-version {
+  margin-top: 80px;
+}
+.music-bot-icon-1-price-montly,
+.music-bot-icon-1-price-yearly {
+  margin-top: 15px;
+}
+.music-bot-icon-1-order-now-button:hover {
+  background-color: rgb(129, 8, 8);
+}
+.music-bot-icon-1:hover {
+  transform: scale(1.1);
+}
+
+.admin-bot-icon-1 {
+  height: 350px;
+  width: 300px;
+  margin-top: 20px;
+  border: gray;
+  border-style: solid;
+  border-width: 2px;
+  border-radius: 50px;
+  background-image: url(../img/red\ background.png);
+  background-repeat: no-repeat;
+  background-size: 300px;
+  background-position-y: -125px;
+  background-color: rgb(75, 75, 75);
+  margin-top: 40px;
+}
+.admin-bot-icon-1-heading {
+  text-align: center;
+  margin-top: 80px;
+  font-size: 25px;
+  color: white;
+}
+.admin-bot-icon-1-order-now-button {
+  text-align: center;
+  font-size: 20px;
+  margin-top: 40px;
+  display: block;
+  background-color: red;
+  width: 180px;
   white-space: nowrap;
-  text-transform: uppercase;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-radius: 10px;
+  align-items: center;
+  text-align: center;
+  margin-left: 60px;
 }
-.admin-bot-version {
-  margin-left: 16.8vw;
-}
-.admin-bot-price-month {
-  margin-left: 15vw;
-}
-.admin-bot-price-year {
-  margin-left: 14.3vw;
-}
-.order-now-button-music {
-  background-color: rgb(195, 31, 31);
-  padding-top: 5px;
-  padding-bottom: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  font-size: 16px;
-  border-radius: 15px;
-  margin-left: 6vw;
-}
-.order-now-button-music a {
-  color: rgb(139, 139, 139);
+a {
+  color: rgb(173, 173, 173);
   text-decoration: none;
 }
-.order-now-button-music:hover {
-  background-color: rgb(201, 85, 85);
+a:hover {
+  transform: scale(1.5);
 }
-.order-now-button-admin {
-  background-color: rgb(195, 31, 31);
-  padding-top: 5px;
-  padding-bottom: 4px;
-  padding-left: 6px;
-  padding-right: 6px;
-  font-size: 16px;
-  border-radius: 15px;
-  margin-left: 5.2vw;
+.admin-bot-icon-1-version,
+.admin-bot-icon-1-price-montly,
+.admin-bot-icon-1-price-yearly {
+  text-align: center;
+  color: rgb(173, 173, 173);
 }
-.order-now-button-admin a {
-  color: rgb(139, 139, 139);
-  text-decoration: none;
+.admin-bot-icon-1-version {
+  margin-top: 80px;
 }
-.order-now-button-admin:hover {
-  background-color: rgb(201, 85, 85);
+.admin-bot-icon-1-price-montly,
+.admin-bot-icon-1-price-yearly {
+  margin-top: 15px;
 }
+.admin-bot-icon-1-order-now-button:hover {
+  background-color: rgb(129, 8, 8);
+}
+.admin-bot-icon-1:hover {
+  transform: scale(1.1);
+} 
