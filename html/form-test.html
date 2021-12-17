@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>form-test</title>
+  </head>
+  <body>
+    <h2>Random Letter</h2>
+    <br />
+    <form action="../html/music-bot-form.html" method="GET">
+      <label for="random-text">Random Letter</label>
+      <input
+      required
+        type="text"
+        minlength="8"
+        maxlength="10"
+        aria-describedby="text"
+        name="random-text"
+        placeholder="Random letter"
+        id="random-text"
+      />
+      <input required type="color" name="color" id="color">
+      <div id="text">Enter between 8 and 10 digits.</div>
+      <button id="submit-button">Submit</button>
+    </form>
+    <script src="../js/form-test.js"></script>
+  </body>
+</html>

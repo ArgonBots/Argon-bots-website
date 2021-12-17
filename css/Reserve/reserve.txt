@@ -1,0 +1,11 @@
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+
+  .container not:(.test2)
+
+  .container *:not(.test2) {
+  color: red
+}
+
+NAV BACKGROUND color
+background-color: rgb(216, 147, 20);

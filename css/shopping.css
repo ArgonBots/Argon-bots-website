@@ -36,8 +36,11 @@ nav #shopping {
     flex-direction: row;
   }
   .admin-bot-icon-1 {
-    margin-bottom: 20px;
+    margin-bottom: 100px;
     margin-left: 50px;
+  }
+  .music-bot-icon-1 {
+    margin-bottom: 100px;
   }
   * *:not(nav, .music-bot-icon-1, .admin-bot-icon-1, .nav-links, .about, .contact, .order-now-button, .mobile-shopping, .shopping-main-body, .logo) {
     overflow: scroll;
@@ -65,7 +68,7 @@ nav #shopping {
 .music-bot-icon-1 {
   height: 350px;
   width: 300px;
-  margin-top: 20px;
+  margin-top: 39.5px;
   border: gray;
   border-style: solid;
   border-width: 2px;

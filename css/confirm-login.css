@@ -1,0 +1,36 @@
+.confirm-login-body-main {
+    padding-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: "Roboto", sans-serif;
+    color: rgb(139, 139, 139);
+}
+.argon-bots-careers-headding {
+    padding-bottom: 5vh;
+    font-size: 40px;
+    text-align: center;
+}
+footer {
+    margin-top: 400px;
+}
+.argon-bots-confirm-login-heading {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.argon-bots-confirm-login-heading a {
+    color: blue;
+    text-decoration: blue;
+    text-decoration-line: underline;
+}
+.argon-bots-confirm-login-heading a:hover {
+    color: rgb(2, 2, 138);
+    text-decoration: rgb(2, 2, 138);
+    text-decoration-line: underline;
+}
+.argon-bots-confirm-login-continue-button {
+    background-color: rgb(196, 138, 30);
+    border-color: rgb(196, 138, 30);
+    width: 100px;
+    height: 40px;
+}

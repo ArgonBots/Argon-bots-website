@@ -1,0 +1,24 @@
+.legal-body-main {
+    padding-top: 20vh;
+    padding-left: 5vw;
+    padding-right: 5vw;
+    font-family: "Roboto", sans-serif;
+    color: rgb(139, 139, 139);
+}
+.argon-bots-careers-headding {
+    padding-bottom: 5vh;
+    font-size: 40px;
+    text-align: center;
+}
+footer {
+    margin-top: 400px;
+}
+.argon-bots-job-openings-heading {
+    margin-top: 30px;
+    text-align: center;
+    font-size: 25px;
+}
+.argon-bots-job-openings-error-message {
+    text-align: center;
+    margin-top: 50px;
+}

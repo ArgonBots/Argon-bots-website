@@ -1,4 +1,4 @@
-* *:not(nav) {
+* *:not(nav, .footer-social-icons, .footer-links, footer) {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -68,4 +68,19 @@ nav #about a {
 }
 .about-body-main a:hover {
   color: rgb(195, 195, 195);
+}
+.news2 {
+  padding-top: 5vh;
+  font-size: 22px;
+  padding-bottom: 3vh;
+}
+.news2-body {
+  font-size: 22px;
+  padding-bottom: 20vh;
+}
+.news2-hr-top {
+  margin-bottom: 2vh;
+}
+.news2-hr-bottom {
+  margin-top: 2vh;
 }
