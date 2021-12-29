@@ -1,4 +1,4 @@
-* *:not(nav, .nav-links, .about, .contact, .order-now-button) {
+* *:not(nav, .nav-links, .about, .contact, .order-now-button, .home, footer, .footer-links, .footer-social-icons) {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -13,13 +13,13 @@ nav #contact a {
 .headding {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+  color: white;
   font-size: 35px;
 }
 .discord-server {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+  color: white;
   padding-top: 10vh;
 }
 .discord-server-join {
@@ -35,23 +35,23 @@ nav #contact a {
   letter-spacing: 3px;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(139, 139, 139);
+  border-color: white;
 }
 .discord-server-join a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .discord-server-join:hover {
-  background-color: rgb(82, 82, 82);
+  background-color: rgb(172, 172, 172);
 }
 .word-discord {
-  color: rgb(184, 184, 184);
+  color: #FFa500;
 }
 
 .email {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+  color: white;
   padding-top: 5vh;
 }
 .email-chat {
@@ -67,23 +67,23 @@ nav #contact a {
   letter-spacing: 3px;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(139, 139, 139);
+  color: white;
 }
 .email-chat a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .email-chat:hover {
-  background-color: rgb(82, 82, 82);
+  background-color: rgb(172, 172, 172);
 }
 .word-email {
-  color: rgb(184, 184, 184);
+  color: #FFa500;
 }
 
 .youtube {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+  color: white;
   padding-top: 5vh;
 }
 .youtube-watch {
@@ -99,23 +99,23 @@ nav #contact a {
   letter-spacing: 3px;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(139, 139, 139);
+  border-color: white;
 }
 .youtube-watch a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .youtube-watch:hover {
-  background-color: rgb(82, 82, 82);
+  background-color: rgb(172, 172, 172);
 }
 .word-youtube {
-  color: rgb(184, 184, 184);
+  color: #FFa500;
 }
 
 .facebook {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+ color: white;
   padding-top: 5vh;
 }
 .facebook-chat {
@@ -131,23 +131,23 @@ nav #contact a {
   letter-spacing: 3px;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(139, 139, 139);
+  color: white;
 }
 .facebook-chat a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .facebook-chat:hover {
-  background-color: rgb(82, 82, 82);
+  background-color: rgb(172, 172, 172);
 }
 .word-facebook {
-  color: rgb(184, 184, 184);
+  color: #FFa500;
 }
 
 .twitter {
   align-items: center;
   text-align: center;
-  color: rgb(139, 139, 139);
+  color: white;
   padding-top: 5vh;
 }
 .twitter-follow {
@@ -163,17 +163,17 @@ nav #contact a {
   letter-spacing: 3px;
   border-width: 3px;
   border-style: solid;
-  border-color: rgb(139, 139, 139);
+ color: white;
 }
 .twitter-follow a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .twitter-follow:hover {
-  background-color: rgb(82, 82, 82);
+ background-color: rgb(172, 172, 172);
 }
 .word-twitter {
-  color: rgb(184, 184, 184);
+  color: #FFa500;
 }
 @media screen and (max-width: 500px) {
   .discord-server-join {
@@ -220,4 +220,20 @@ nav #contact a {
     margin-left: 10px;
     margin-right: 10px;
   }
+}
+.main-body {
+  background-image: url(../img/Untitled\ design\ \(1\)\ copy.png), url(../img/Untitled\ design\ \(5\).png);
+  background-repeat: no-repeat;
+  background-size: 30vw;
+  background-position-x: right, -5vw;
+  background-position-y: 5vw, 30vw;
+}
+.hr1 {
+  width: 50vw;
+  align-items: center;
+  margin-left: 25vw;
+  height: 0.3vw;
+  color: rgb(200, 200, 200);
+  background-color: rgb(200, 200, 200);
+  border-radius: 0.7vw;
 }

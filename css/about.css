@@ -1,4 +1,4 @@
-* *:not(nav, .footer-social-icons, .footer-links, footer) {
+* *:not(nav, .nav-links, .footer-social-icons, .footer-links, footer, .about, .contact, .order-now-button, .home) {
   overflow: scroll;
   -webkit-overflow-scrolling: touch;
 }
@@ -10,14 +10,16 @@ nav #about a {
   padding-left: 5vw;
   padding-right: 5vw;
   font-family: "Roboto", sans-serif;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .headding {
-  padding-bottom: 5vh;
+  padding-bottom: 2vh;
+  color: white;
 }
 .our-mission {
-  font-size: 50px;
-  line-height: 70px;
+  color: white;
+  font-size: 4vw;
+  line-height: 5vw;
   padding-bottom: 25vh;
 }
 @keyframes fadeIn {
@@ -29,6 +31,7 @@ nav #about a {
   }
 }
 .keep-scrolling {
+  color: rgb(204, 204, 204);
   width: 100%;
   align-items: center;
   text-align: center;
@@ -40,9 +43,11 @@ nav #about a {
   padding-bottom: 50vh;
   font-size: 25px;
   line-height: 30px;
+  color: white;
 }
 .what-we-do-headding {
   padding-bottom: 5vh;
+  color: white;
 }
 .latest-news {
   padding-bottom: 5vh;
@@ -64,10 +69,11 @@ nav #about a {
 }
 .about-body-main a {
   text-decoration: none;
-  color: rgb(139, 139, 139);
+  color: white;
 }
 .about-body-main a:hover {
   color: rgb(195, 195, 195);
+  cursor: pointer;
 }
 .news2 {
   padding-top: 5vh;
@@ -83,4 +89,17 @@ nav #about a {
 }
 .news2-hr-bottom {
   margin-top: 2vh;
+}
+.about-fold {
+  background-image: url(../img/Untitled\ design\ \(1\).png);
+  background-repeat: no-repeat;
+  background-size: 50vw;
+  background-blend-mode: color-burn;
+  background-position-x: 40vw;
+}
+.about-heading-orange-part-1 {
+  color: #FFa500;
+}
+.about-what-we-do-orange-part-1 {
+  color: #FFa500;
 }

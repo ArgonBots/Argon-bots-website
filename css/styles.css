@@ -8,14 +8,14 @@ nav {
   justify-content: space-around;
   align-items: center;
   min-height: 8vh;
-  background-color: rgb(54, 54, 54);
+  background-color: #2F4858;
   font-family: "Source Sans Pro", sans-serif;
   position: fixed;
   z-index: 99;
   width: 100%;
   max-width: 100%;
   min-width: 100%;
-  border-bottom-color: rgb(70, 70, 70);
+  border-bottom-color: black;
   border-bottom-width: 2px;
   border-bottom-style: solid;
 }
@@ -99,13 +99,12 @@ nav a {
   padding-bottom: 5px;
   padding-left: 10px;
   padding-right: 10px;
-  background-color: rgb(195, 31, 31);
   border-radius: 20px;
   align-items: center;
   white-space: nowrap;
 }
-.order-now-button:hover {
-  background-color: rgb(201, 85, 85);
+.order-now-button a:hover {
+  color: rgb(194, 194, 194);
 }
 .contact a:hover {
   color: rgb(194, 194, 194);
@@ -113,8 +112,11 @@ nav a {
 .about a:hover {
   color: rgb(194, 194, 194);
 }
+.home a:hover {
+  color: rgb(194, 194, 194);
+}
 body {
-  background-color: rgb(54, 54, 54);
+  background-color: #2F4858;
 }
 .contact {
   padding-top: 5px;
@@ -124,6 +126,13 @@ body {
   align-items: center;
 }
 .about {
+  padding-top: 5px;
+  padding-bottom: 5px;
+  padding-left: 10px;
+  padding-right: 10px;
+  align-items: center;
+}
+.home {
   padding-top: 5px;
   padding-bottom: 5px;
   padding-left: 10px;
@@ -157,12 +166,30 @@ body {
     margin-left: 45vw;
   }
   .order-now-button {
-    margin-right: 25vw;
+    margin-right: 15vw;
+  }
+  .user {
+    margin-right: 60px;
   }
 }
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 912px) {
   .user {
-    margin-left: 40vw;
+    margin-right: 70px;
+  }
+}
+@media screen and (max-width: 1135px) {
+  .order-now-button {
+    margin-right: 140px;
+  }
+}
+@media screen and (max-width: 974px) {
+  .order-now-button {
+    margin-right: 200px;
+  }
+}
+@media screen and (max-width: 846px) {
+  .order-now-button {
+    margin-right: 230px;
   }
 }
 @media screen and (max-width: 770px) {
