@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/header') -%>
+    <title>Argon Bots | Create Bot</title>
+    <link rel="icon" href="/img/Copy of Ar.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/music-bot-form-2.css" />
+  </head>
+
+  <body>
+    <h3 class="cancel-button"><a href="/bots">CANCEL</a></h3>
+    <h3 class="back-button">
+      <a href="/music-bot-form/status">BACK</a>
+    </h3>
+    <h3 class="form-item-1-headding">
+      Now that we have finished that lets move on to the your BOT'S STATUS TYPE
+    </h3>
+    <form action="/music-bot-form/token" method="GET">
+      <select name="bot-status-type" id="drop-down-menu">
+        <option value="Select bot status type" selected>
+          Select bot status type
+        </option>
+        <option value="Playing">PLAYING</option>
+        <option value="Streaming">STREAMING</option>
+        <option value="Watching">WATCHING</option>
+        <option value="Listening">LISTENING</option>
+        <option value="Competing">COMPETING</option>
+      </select>
+      <br />
+      <br />
+      <button id="form-item-1-button" type="submit">NEXT</button>
+    </form>
+    <script src="/js/2.js"></script>
+  </body>
+</html>

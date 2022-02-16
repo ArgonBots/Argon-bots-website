@@ -1,0 +1,270 @@
+*
+  *:not(nav, .nav-links, .footer-social-icons, .footer-links, footer, .about, .contact, .order-now-button, .home, .landing-page-top-heading, .landing-page-features-heading, .features-argon-music-headding) {
+  overflow: scroll;
+  -webkit-overflow-scrolling: touch;
+}
+.home-body-main {
+  font-family: "Roboto", sans-serif;
+  color: rgb(139, 139, 139);
+}
+nav #home a {
+  color: rgb(194, 194, 194);
+}
+.landing-page-top {
+  height: 90vw;
+  width: 100%;
+  background-image: url(../img/discord-background-5.png);
+  background-size: cover;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.landing-page-top-heading {
+  color: white;
+  font-size: 60px;
+  margin-top: 20vw;
+  letter-spacing: 2px;
+  margin-left: 5vw;
+  line-height: 60px;
+  font-family: "Raleway", sans-serif;
+}
+.landing-page-top-subheading {
+  color: white;
+  font-size: 30px;
+  margin-top: 45px;
+  margin-left: 5vw;
+  line-height: 45px;
+  font-weight: 100;
+}
+.landing-page-top-order-now-button {
+  color: white;
+  font-size: 30px;
+  margin-top: 45px;
+  margin-left: 5vw;
+  letter-spacing: 2px;
+  background-color: #ffa500;
+  width: 290px;
+  padding-left: 10px;
+  padding-right: 10px;
+  white-space: nowrap;
+  text-align: center;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  border-radius: 15px;
+}
+.landing-page-top-order-now-button:hover {
+  background-color: #b37400;
+  cursor: pointer;
+}
+.landing-page-top-order-now-button a {
+  color: white;
+  text-decoration: none;
+}
+.lading-page-features {
+  height: 3500px;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.landing-page-features-heading-part-1 {
+  color: #ffa500;
+}
+.landing-page-features-heading {
+  color: white;
+  font-size: 4vw;
+  margin-left: 4vw;
+  display: none;
+}
+.landing-page-features-body-part-1 {
+  color: #ffa500;
+}
+.landing-page-features-body {
+  color: white;
+  margin-left: 3vw;
+  margin-top: 2vw;
+  font-size: 2vw;
+  font-weight: 500;
+  line-height: 2.5vw;
+}
+.landing-page-stats-heading {
+  color: white;
+  font-size: 4vw;
+  margin-left: 3vw;
+  margin-top: 50px;
+}
+.landing-page-stats-heading-part-1 {
+  color: #ffa500;
+}
+.landing-page-stats {
+  background-color: #12244c;
+  height: 70vw;
+  width: 100%;
+}
+@media screen and (max-width: 768px) {
+  .landing-page-top-heading {
+    font-size: 30px;
+    line-height: 35px;
+    margin-top: -450px;
+    font-weight: 100;
+  }
+  .landing-page-top-subheading {
+    font-size: 18px;
+    line-height: 20px;
+    margin-top: 50px;
+  }
+  .landing-page-top {
+    background: url("../img/Untitled-1 .png");
+    height: 1000px;
+    background-repeat: no-repeat;
+    background-position-x: center;
+    background-size: 120%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .landing-page-top-order-now-button {
+    margin-top: 50px;
+    width: 200px;
+    border-radius: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+  }
+}
+@media screen and (min-width: 552px) {
+  .landing-page-top {
+    height: 700px;
+    background-position-y: -250px;
+    background-position-x: -47px;
+  }
+  .landing-page-top-heading {
+    margin-top: -150px;
+  }
+}
+@media screen and (min-width: 600px) {
+  .landing-page-top {
+    background: url("../img/Untitled-1\ 8.png");
+    background-position-y: 70px;
+    background-position-x: 0px;
+    background-size: 100%;
+    background-repeat: no-repeat;
+  }
+}
+@media screen and (min-width: 768px) {
+  .landing-page-top {
+    height: 90vw;
+    width: 100%;
+    background-image: url(../img/discord-background-5.png);
+    background-size: cover;
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: right;
+  }
+  .landing-page-top-heading {
+    color: white;
+    font-size: 60px;
+    margin-top: 20vw;
+    letter-spacing: 2px;
+    margin-left: 5vw;
+    line-height: 60px;
+    font-family: "Raleway", sans-serif;
+  }
+  .landing-page-top-subheading {
+    color: white;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 5vw;
+    line-height: 45px;
+    font-weight: 100;
+  }
+  .landing-page-top-order-now-button {
+    color: white;
+    font-size: 30px;
+    margin-top: 45px;
+    margin-left: 5vw;
+    letter-spacing: 2px;
+    background-color: #ffa500;
+    width: 290px;
+    padding-left: 10px;
+    padding-right: 10px;
+    white-space: nowrap;
+    text-align: center;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-radius: 15px;
+  }
+  .landing-page-top-order-now-button:hover {
+    background-color: #b37400;
+    cursor: pointer;
+  }
+  .landing-page-top-order-now-button a {
+    color: white;
+    text-decoration: none;
+  }
+}
+.landing-page-features-title {
+  color: #ffa500;
+  font-size: 25px;
+  margin-left: 3vw;
+  text-align: center;
+  padding-bottom: 40px;
+  top: 0;
+}
+.features-argon-music-headding {
+  color: #ffa500;
+  font-size: 38px;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  margin-left: 5vw;
+  line-height: 60px;
+  padding-bottom: 70px;
+  text-decoration: underline;
+}
+.features-argon-music-text-body {
+  color: white;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-left: 5vw;
+  padding-bottom: 180px;
+  padding-right: 40px;
+}
+.features-argon-music-youtube-video {
+  margin-left: 5vw;
+  margin-bottom: 100px;
+  border-radius: 10px;
+  border: 1px solid;
+  border-color: #ffa500;
+}
+.features-argon-system-headding {
+  color: #ffa500;
+  font-size: 38px;
+  letter-spacing: 2px;
+  margin-left: 5vw;
+  line-height: 60px;
+  padding-bottom: 70px;
+  text-decoration: underline;
+}
+.landing-page-top-heading-part-1:after {
+  content: "\a";
+  white-space: pre;
+}
+.home-page-features-description-headding-href {
+  color: #ffa500;
+}
+.home-page-features-description-headding-href:hover {
+  color: #b97800;
+}
+@media screen and (max-width: 690px) {
+  .features-argon-music-youtube-video {
+    width: 440px;
+    height: 285px;
+  }
+}
+@media screen and (max-width: 475px) {
+  .features-argon-music-youtube-video {
+    width: 340px;
+    height: 185px;
+  }
+}

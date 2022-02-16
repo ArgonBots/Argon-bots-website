@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <%- include('partials/header') -%>
+    <title>Argon Bots | Create Bot</title>
+    <link rel="icon" href="/img/Copy of Ar.png" type="image/x-icon" />
+    <link rel="stylesheet" href="/css/music-bot-form-8.css" />
+  </head>
+
+  <body>
+    <h3 class="cancel-button"><a href="/bots">CANCEL</a></h3>
+    <h3 class="back-button">
+      <a href="/music-bot-form/hex">BACK</a>
+    </h3>
+    <h3 class="form-item-1-headding">
+      Almost done only a few steps to go! Next up FILE NAME
+    </h3>
+    <form action="/music-bot-form/id" method="GET">
+      <input
+        type="text"
+        id="form-item-1-input"
+        placeholder="File name"
+      /><br /><br />
+      <button id="form-item-1-button" type="submit">NEXT</button>
+    </form>
+    <script src="/js/8.js"></script>
+  </body>
+</html>
