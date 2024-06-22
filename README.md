@@ -1,1 +1,1 @@
-A personal project build by @HannesEn and @mooogah. It was meant to be a point of sale and eventually a marketplace for discord bot but due to policy changes this project was discontinued.
+A personal project build by @HannesEn and @mooogah. It was meant to be a point of sale and eventually a marketplace for discord bots but due to policy changes by discord this project was discontinued.
